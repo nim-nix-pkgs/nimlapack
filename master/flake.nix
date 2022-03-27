@@ -11,6 +11,7 @@
   inputs.src-nimlapack-master.ref   = "refs/heads/master";
   inputs.src-nimlapack-master.owner = "andreaferretti";
   inputs.src-nimlapack-master.repo  = "nimlapack";
+  inputs.src-nimlapack-master.dir   = "";
   inputs.src-nimlapack-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

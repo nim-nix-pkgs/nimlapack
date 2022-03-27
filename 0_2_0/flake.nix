@@ -11,6 +11,7 @@
   inputs.src-nimlapack-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-nimlapack-0_2_0.owner = "andreaferretti";
   inputs.src-nimlapack-0_2_0.repo  = "nimlapack";
+  inputs.src-nimlapack-0_2_0.dir   = "";
   inputs.src-nimlapack-0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
